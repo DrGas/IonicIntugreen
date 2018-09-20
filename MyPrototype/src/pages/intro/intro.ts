@@ -26,12 +26,12 @@ slides = [
     },
     {
       title: "We Need your <br> GPS HELP?",
-      description: "To use our adventure map, we need the power of the phone's GPS. Ask your parents for help, give access to BySafari and get ready for an adventure!",
+      description: "We need the power of the phone's GPS. Ask your parents for help!",
       image: "../assets/imgs/bysafari_larry_intro.png",
     },
     {
       title: "Explore and <br> Be Safe?",
-      description: "Please be careful as you explore with your map.  Look both ways when you cross the road, and make sure your shoes are tied!",
+      description: "Please be careful as you explore with your BySafari. Look both ways when you cross the road!",
       image: "../assets/imgs/bysafari_larry_intro.png",
     }
   ];
