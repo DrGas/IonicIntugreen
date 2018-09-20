@@ -18,20 +18,35 @@ page-home {
     width: 100%;
     color: #fff;
     text-align: right;
-    right: 10%;
+    right: 7%;
 
 
   }
 
-  .card-subtitle-home {
-    font-size: 1.2em;
+  .card-subtitle-time {
+    font-size: 1.3em;
     position: absolute;
-    top: 52%;
+    top: 60%;
     width: 100%;
     color: #fff;
     text-align: right;
     right: 5%;
 
   }
+
+
+  .card-subtitle-dis {
+    font-size: 1.3em;
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    color: #fff;
+    text-align: right;
+    right: 5%;
+
+  }
+
+
+  
 
 }
