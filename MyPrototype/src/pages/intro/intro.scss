@@ -1,7 +1,7 @@
 .tutorial-page {
 
   .toolbar-background {
-    background: $blue;
+    background: transparent;
     border-color: transparent;
   }
 
@@ -37,7 +37,9 @@
 }
 
 .intro-bg{
-  background: $blue;
+background-image: url("../../assets/imgs/bg-intro.png");
+background-size: cover;
+
 }
 
 
