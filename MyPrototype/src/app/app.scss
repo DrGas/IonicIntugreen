@@ -30,9 +30,20 @@ h2{
 .buttonround {
 	border-radius: 50px;
 	padding: 30px 80px;
+	font-family: Marker;
+	font-size: 30px;
+	text-align: center;
+	color: $white;
+
 }
+
 
 .center{
 	display: block;
 	margin: 0 auto;
+}
+
+.no-space {
+	margin: 0;
+	padding: 0;
 }

@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+
 
 /**
  * Generated class for the BeePage page.
@@ -14,8 +16,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'bee.html',
 })
 export class BeePage {
+	homePage = HomePage;
+
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  goHome(){
+  	this.navCtrl.setRoot(this.homePage);
   }
 
   ionViewDidLoad() {
