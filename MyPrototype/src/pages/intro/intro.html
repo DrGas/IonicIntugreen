@@ -6,37 +6,51 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Welcome</ion-title>
-  </ion-navbar>
-
 </ion-header>
 
-<ion-slides pager class="intro-slide">
 
-  <ion-slide style="background-color: transparent;">
-    <h2>Slide 1</h2>
+
+<ion-content>
+
+<ion-grid>
+  <ion-row>
+    <ion-col col-12>
+      <h2> Welcome to BySafari!</h2>
+    </ion-col>
+  </ion-row>
+
+
+<ion-row>
+    <ion-col col-12>
+    
+  <ion-slides>
+  <ion-slide>
+    <h1>Slide 1</h1>
   </ion-slide>
-
-  <ion-slide style="background-color: transparent;">
-    <h2>Slide 2</h2>
+  <ion-slide>
+    <h1>Slide 2</h1>
   </ion-slide>
-
-  <ion-slide style="background-color: transparent;">
-    <h2>Slide 3</h2>
+  <ion-slide>
+    <h1>Slide 3</h1>
   </ion-slide>
-
 </ion-slides>
+    </ion-col>
+  </ion-row>
 
-<ion-content padding class="bg-image">
-	<h3>Welcome to bySafari</h3>
 
-  <p>
-   It is going to be fun!
-  </p>
+<ion-row>
+  <ion-col col-12>
+ 
+<button ion-button 
+      class="button-page" (click)="ionViewDidLoad()"> 
+      Next</button>
 
-  <button ion-button secondary 
-  class="button-intro" 
-  (click)="clickIntroButton()">Next</button>
+  </ion-col>
+  </ion-row>
+
+
+</ion-grid>
+
+
 
 </ion-content>
