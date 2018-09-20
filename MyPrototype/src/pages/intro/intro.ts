@@ -21,7 +21,7 @@ export class IntroPage {
 slides = [
     {
       title: "Welcome to <br> Bysafari!",
-      description: "Your Urban StoryTelling Guide <br>to explore the world the green world around you.  ",
+      description: "Your Urban StoryTelling Guide <br>to explore the green world around you.  ",
       image: "../assets/imgs/bysafari_larry_intro.png",
     },
     {
