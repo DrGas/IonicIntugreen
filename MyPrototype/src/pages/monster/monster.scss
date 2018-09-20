@@ -11,8 +11,21 @@ page-monster {
 	padding: 0;
 }
 
-.heading {
-	text-align: center;
-
+.heading {	
+	color: $white;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
 }
 
+
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.text {
+	color: $white;
+
+}
