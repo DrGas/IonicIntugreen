@@ -7,15 +7,9 @@
 
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Bird World</ion-title>
+    <ion-title class="center">BySafari</ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-content class="main-container">
-
 
 
 <ion-content class="tutorial-page intro-bg">
@@ -24,7 +18,9 @@
     <ion-slide *ngFor="let slide of slides">
       <ion-toolbar>
         <ion-buttons end>
-          <button ion-button>Skip</button>
+
+          <button ion-button (click)="clickIntroButton()"> 
+          Skip</button>
         </ion-buttons>
       </ion-toolbar>
       <img [src]="slide.image" class="slide-image"/>
@@ -36,12 +32,12 @@
       </ion-toolbar>
       <img src="../assets/imgs/bysafari_larry_intro.png" class="slide-image"/>
       <h2 class="slide-title">Ready to Play?</h2>
-     
-      <button ion-button class="buttonround" (click)="clickIntroButton()"> 
-      Start<ion-icon name="arrow-forward"></ion-icon></button>
 
-    </ion-slide>
-  </ion-slides>
-</ion-content>
+      <button ion-button class="buttonround" (click)="clickIntroButton()"> 
+        Start<ion-icon name="arrow-forward"></ion-icon></button>
+
+      </ion-slide>
+    </ion-slides>
+  </ion-content>
 
 
