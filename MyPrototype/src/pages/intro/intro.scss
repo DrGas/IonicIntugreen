@@ -1,7 +1,7 @@
 .tutorial-page {
 
   .toolbar-background {
-    background: #fff;
+    background: $blue;
     border-color: transparent;
   }
 
@@ -10,11 +10,11 @@
   }
 
   .slide-title {
-    margin-top: 2.8rem;
+    margin-top: 3rem;
   }
 
   .slide-image {
-    max-height: 50%;
+    max-height: 70%;
     max-width: 60%;
     margin: 18px 0;
   }
@@ -24,10 +24,10 @@
   }
 
   p {
-    padding: 0 40px;
+    padding: 0 20px;
     font-size: 14px;
     line-height: 1.5;
-    color: #60646B;
+    color: $white;
 
     b {
       color: #000000;
@@ -39,3 +39,4 @@
 .intro-bg{
   background: $blue;
 }
+

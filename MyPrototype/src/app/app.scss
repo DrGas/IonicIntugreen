@@ -20,12 +20,28 @@
 	src: url('../assets/fonts/PermanentMarker-webfont.woff');
 }
 
+@font-face{
+	font-family: Open Sans;
+	src: url('../assets/fonts/opensans_regular_macroman.woff');
+}
+
+
+
 h2{
 	font-family: Marker;
 	font-size: 40px;
 	text-align: center;
 	color: $white;
 }
+
+
+p {
+	font-family: Open Sans;
+	font-size: 20px;
+	text-align: center;
+	color: $white;
+}
+
 
 .buttonround {
 	border-radius: 50px;

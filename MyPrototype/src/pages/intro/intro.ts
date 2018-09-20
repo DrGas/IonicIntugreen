@@ -20,18 +20,18 @@ export class IntroPage {
 
 slides = [
     {
-      title: "Welcome to Bysafari!",
-      description: "Your Urban StoryTelling Guide to explore the world around you ",
+      title: "Welcome to <br> Bysafari!",
+      description: "Your Urban StoryTelling Guide <br>to explore the world the green world around you.  ",
       image: "../assets/imgs/bysafari_larry_intro.png",
     },
     {
-      title: "We Need your GPS HELP?",
-      description: "<b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.",
+      title: "We Need your <br> GPS HELP?",
+      description: "To use our adventure map, we need the power of the phone's GPS. Ask your parents for help, give access to BySafari and get ready for an adventure!",
       image: "../assets/imgs/bysafari_larry_intro.png",
     },
     {
-      title: "Explore and Be Safe?",
-      description: "The <b>Ionic Cloud</b> is a cloud platform for managing and scaling Ionic apps with integrated services like push notifications, native builds, user auth, and live updating.",
+      title: "Explore and <br> Be Safe?",
+      description: "Please be careful as you explore with your map.  Look both ways when you cross the road, and make sure your shoes are tied!",
       image: "../assets/imgs/bysafari_larry_intro.png",
     }
   ];
