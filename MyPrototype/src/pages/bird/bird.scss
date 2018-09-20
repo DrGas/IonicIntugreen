@@ -1,20 +1,24 @@
-
-page-bird {
+page-bee {
 
 }
-
-.padding{
-	padding: 20px 30px;
+ .main-container-bird {
+	background-color: $green;
 }
 
-.text {
-	margin: 20px 0;
-	padding: 20px 30px;
-}
 
-.button-page{
+.heading {	
+	color: $yellow;
 	display: block;
 	margin: 0 auto;
-	padding: 20px 50px;
+	padding-top: 20px;
+}
 
+
+.text {
+	color: $white;
+
+}
+
+.icon {
+	margin-right: 20px;
 }
