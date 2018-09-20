@@ -6,25 +6,29 @@ page-home {
 
   .card {
     position: relative;
-    text-align: center;
 
   }
 
-  .card-title {
+  .card-title-home {
     position: absolute;
     top: 36%;
     font-size: 2.0em;
     width: 100%;
-    font-weight: bold;
     color: #fff;
+    text-align: right;
+    right: 10%;
+
   }
 
-  .card-subtitle {
-    font-size: 1.0em;
+  .card-subtitle-home {
+    font-size: 1.2em;
     position: absolute;
     top: 52%;
     width: 100%;
     color: #fff;
+    text-align: right;
+    right: 5%;
+
   }
 
 }
