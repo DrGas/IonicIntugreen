@@ -8,6 +8,8 @@ import { ListPage } from '../pages/list/list';
 import { IntroPage } from '../pages/intro/intro';
 import { BirdPage } from '../pages/bird/bird';
 import { BeePage } from '../pages/bee/bee';
+import { MonsterPage } from '../pages/monster/monster';
+import { WaterPage } from '../pages/water/water';
 
 
 @Component({
@@ -30,8 +32,8 @@ export class MyApp {
       { title: 'Intro', component: IntroPage },
       { title: 'Bird', component: BirdPage },
       { title: 'Bee', component: BeePage },
-
-
+      { title: 'Monster', component: MonsterPage },
+      { title: 'Water', component: WaterPage },
 
     ];
 
