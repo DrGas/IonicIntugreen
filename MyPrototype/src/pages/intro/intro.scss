@@ -1,0 +1,22 @@
+page-intro {
+	.bg-image {
+	background-image: url('../assets/imgs/bg.png');
+	background-repeat: no-repeat;
+	background-position: cover !important;
+	background-size: 100% 100%;
+	z-index: -50;
+
+}
+
+.intro-slide {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	z-index: 99;
+}
+
+.button-intro{
+	z-index: 99999;
+	margin-top: 500px;
+}
+}

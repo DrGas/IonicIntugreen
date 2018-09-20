@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card (click)="goBird()">
+    <img src="../assets/imgs/card-bird.png"/>
+    <div class="card-title">Bird</div>
+    <div class="card-subtitle">Bird Universe</div>
+  </ion-card>
+
+  <ion-card (click)="goBee()">
+    <img src="../assets/imgs/card-bird.png"/>
+    <div class="card-title">Bee</div>
+    <div class="card-subtitle">Bee Universe</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="../assets/imgs/card-bird.png"/>
+    <div class="card-title">Monster</div>
+    <div class="card-subtitle">Monster Universe</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="../assets/imgs/card-bird.png"/>
+    <div class="card-title">Water</div>
+    <div class="card-subtitle">Water Universe</div>
+  </ion-card>
+
+</ion-content>
