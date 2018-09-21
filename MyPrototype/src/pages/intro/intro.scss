@@ -7,10 +7,12 @@
 
   .slide-zoom {
     height: 100%;
+    z-index: 2;
   }
 
   .slide-title {
     margin-top: 10px;
+    z-index: 2;
     
   }
 
@@ -36,7 +38,6 @@
       color: #000000;
     }
   }
-
 }
 
 .intro-bg{
@@ -47,23 +48,23 @@ background-size: cover;
 
 .cloud{
   position: absolute;
-  z-index: 2;
-  animation: drift 50s linear infinite;
+  z-index: 1;
+  animation: drift 40s linear infinite;
 }
 
 .cloud2{
   position: absolute;
   z-index: 1;
-  animation: drift2 70s 6s linear infinite;
+  animation: drift2 60s  linear infinite;
 }
 
 @keyframes drift{
-  from{transform:translateX(-155px);}
+  from{transform:translateX(-105px);}
   to{transform:translateX(500px);}
 }
 
 @keyframes drift2{
-  from{transform:translateX(-155px);}
+  from{transform:translateX(-105px);}
   to{transform:translateX(500px);}
 }
 

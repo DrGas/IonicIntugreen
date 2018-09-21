@@ -27,12 +27,12 @@ slides = [
     {
       title: "We Need your <br> GPS HELP?",
       description: "We need the power of the phone's GPS. Ask your parents for help!",
-      image: "../assets/imgs/bysafari_larry_intro.png",
+      image: "../assets/imgs/bysafari_map_intro.png",
     },
     {
       title: "Explore and <br> Be Safe?",
       description: "Please be careful as you explore with your BySafari. Look both ways when you cross the road!",
-      image: "../assets/imgs/bysafari_larry_intro.png",
+      image: "../assets/imgs/bysafari_larry_play.png",
     }
   ];
 
