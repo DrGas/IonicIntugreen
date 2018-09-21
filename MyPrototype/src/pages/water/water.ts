@@ -33,8 +33,8 @@ export class WaterPage {
   		this.videoOptions = {
   			volume: 0.7,
   		}
-  	this.videoUrl = "https://www.youtube.com/watch?v=kbMqWXnpXcA"	
-  	this.videoPlayer.play(this.videoUrl, this.videoOptions);
+  	this.videoUrl = "https://vimeo.com/206216572"	
+  	this.videoPlayer.play(this.videoUrl, this.videoOptions)
 
   	}catch(e){
   		console.error(e);
