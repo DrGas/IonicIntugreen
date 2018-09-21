@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
-
+import { VideoPlayer } from '@ionic-native/video-player';
 
 
 import { IntroPage } from '../pages/intro/intro';
@@ -49,7 +49,8 @@ import { WaterPage } from '../pages/water/water';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+     VideoPlayer,
   ]
 })
 export class AppModule {}
