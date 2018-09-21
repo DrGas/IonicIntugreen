@@ -15,6 +15,7 @@
   }
 
   .slide-image {
+    z-index: 2;
     max-height: 30%;
     max-width: 30%;
     margin: 5px 0;
@@ -44,6 +45,27 @@ background-size: cover;
 
 }
 
+.cloud{
+  position: absolute;
+  z-index: 2;
+  animation: drift 50s linear infinite;
+}
+
+.cloud2{
+  position: absolute;
+  z-index: 1;
+  animation: drift2 70s 6s linear infinite;
+}
+
+@keyframes drift{
+  from{transform:translateX(-155px);}
+  to{transform:translateX(500px);}
+}
+
+@keyframes drift2{
+  from{transform:translateX(-155px);}
+  to{transform:translateX(500px);}
+}
 
 .buttonintro{
   margin-top: 10px;
