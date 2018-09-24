@@ -9,6 +9,7 @@ import { BirdPage } from '../pages/bird/bird';
 import { BeePage } from '../pages/bee/bee';
 import { MonsterPage } from '../pages/monster/monster';
 import { WaterPage } from '../pages/water/water';
+import { AboutPage } from '../pages/about/about';
 
 
 @Component({
@@ -28,6 +29,8 @@ export class MyApp {
     this.pages = [
       { title: 'BySafari Guide', component: IntroPage },
       { title: 'Home', component: HomePage },  
+      { title: 'About', component: AboutPage },
+
       { title: 'Bird', component: BirdPage },
       { title: 'Bee', component: BeePage },
       { title: 'Monster', component: MonsterPage },

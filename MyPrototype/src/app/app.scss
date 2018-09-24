@@ -69,10 +69,10 @@ p {
 	padding: 0;
 }
 
-.toolbar-background {
-	background-color: #90d0ad;
+/*.toolbar-background {
+	background-color: #b9e4f2;
 
-}
+}*/
 
 .ion-ios-home {
 	float: right;
@@ -88,6 +88,17 @@ p {
 	background-color: white;
 	border-radius: 20px;
 	padding: 10px;
+
+}
+
+.input-wrapper {
+	font-family: Open Sans;
+	font-weight: 500;
+	color: #38393d;
+}
+
+ion-title {
+	font-family: Knewave;
 
 }
 

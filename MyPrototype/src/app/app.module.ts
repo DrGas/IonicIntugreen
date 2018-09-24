@@ -17,6 +17,7 @@ import { BirdPage } from '../pages/bird/bird';
 import { BeePage } from '../pages/bee/bee';
 import { MonsterPage } from '../pages/monster/monster';
 import { WaterPage } from '../pages/water/water';
+import { AboutPage } from '../pages/about/about';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { WaterPage } from '../pages/water/water';
     BeePage,
     MonsterPage,
     WaterPage,
+    AboutPage,
 
   ],
   imports: [
@@ -45,6 +47,7 @@ import { WaterPage } from '../pages/water/water';
     BeePage,
     MonsterPage,
     WaterPage,
+    AboutPage,
   ],
   providers: [
     StatusBar,
