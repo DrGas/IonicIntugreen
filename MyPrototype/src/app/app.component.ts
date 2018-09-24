@@ -11,6 +11,7 @@ import { MonsterPage } from '../pages/monster/monster';
 import { WaterPage } from '../pages/water/water';
 
 
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -32,6 +33,7 @@ export class MyApp {
       { title: 'Bee', component: BeePage },
       { title: 'Monster', component: MonsterPage },
       { title: 'Water', component: WaterPage },
+
 
     ];
 
