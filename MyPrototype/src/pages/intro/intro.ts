@@ -21,17 +21,17 @@ export class IntroPage {
 slides = [
     {
       title: "Hello Explorer...",
-      description: "Welcome to BySafari! <br> Your Urban StoryTelling Guide to explore <br> the world around you. ",
+      description: "Welcome to BySafari! <br> Your Urban Storytelling Guide<br> to explore the world around you. ",
       image: "../assets/imgs/bysafari_larry_intro.png",
     },
     {
       title: "We Need your <br> GPS HELP?",
-      description: "We need the power of the phone's GPS. Ask your parents for help!",
+      description: "We need the power of the phone's GPS. <br> Ask your parents for help!",
       image: "../assets/imgs/bysafari_map_intro.png",
     },
     {
       title: "Explore and <br> Be Safe?",
-      description: "Please be careful as you explore with your BySafari. Look both ways when you cross the road!",
+      description: "Please be careful as you explore <br> with your BySafari. Look both ways<br>  when you cross the road!",
       image: "../assets/imgs/bysafari_larry_play.png",
     }
   ];
