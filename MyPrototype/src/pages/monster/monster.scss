@@ -4,12 +4,17 @@ page-monster {
 
 .main-container {
 	background-color: $violet;
-	padding: 0px;
-	margin: 0px;
-
 	
 }
 
+.icons{
+  border-radius: 50%; /*make image in a circle*/
+  background: white;
+  margin-right: 10px;
+  margin-top: 4px;
+
+
+  }
 
 .fullwidth{
 	 width: 100%;
