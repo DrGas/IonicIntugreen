@@ -111,10 +111,18 @@ float: right;
     
 }*/
 
+/*MENU STYLE*/
 
-  $toolbar-background: #b9e4f2;
-    $toolbar-border-color: #123456;
-    $toolbar-text-color: #123456;
-    $toolbar-active-color: #123456;
-    $toolbar-inactive-color: #123456;
-    $toolbar-title-color : #fff;
+ion-title {
+	font-family: Knewave;
+
+}
+
+.input-wrapper {
+	font-family: Open Sans;
+	font-weight: 500;
+	color: #38393d;
+}
+
+
+ 
