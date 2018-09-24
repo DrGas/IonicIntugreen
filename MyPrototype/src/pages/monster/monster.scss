@@ -4,11 +4,17 @@ page-monster {
 
 .main-container {
 	background-color: $violet;
+	padding: 0px;
+	margin: 0px;
+
+	
 }
 
-.no-space {
-	margin: 0;
-	padding: 0;
+
+.fullwidth{
+	 width: 100%;
+	 margin: 0px;
+	 padding: 0px;
 }
 
 .heading {	
