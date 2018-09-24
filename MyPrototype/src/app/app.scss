@@ -74,14 +74,31 @@ p {
 
 }
 
-.ion-md-home {
+.ion-ios-home {
+	float: right;
+	border: 3px solid white;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.ion-md-home{
+	float: right;
+	border: 3px solid white;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+/*.ion-md-home {
 float: right;
     right: 0px;
     width: 50px;
     border: 3px solid red;
     padding: 10px;
     
-}
+}*/
 
 
   $toolbar-background: #b9e4f2;
