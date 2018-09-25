@@ -4,6 +4,7 @@ import { BirdPage } from '../bird/bird';
 import { BeePage } from '../bee/bee';
 import { MonsterPage } from '../monster/monster';
 import { WaterPage } from '../water/water';
+import { LoadingController } from 'ionic-angular'; 
 
 
 
@@ -17,9 +18,15 @@ export class HomePage {
 	public monsterPage = MonsterPage;
 	public waterPage = WaterPage;
 
-  constructor(public navCtrl: NavController) {
+  constructor(public navCtrl: NavController, public loadingCtr: LoadingController) {
+
+  	let loader = this.loadingCtr.create({content: 'Loading Universe'});
+  	loader.present();
+  	loader.dismiss();
+
 
   }
+
 
 	goBird(){
 		this.navCtrl.setRoot(this.birdPage);
